@@ -1,11 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/css/output.css">
-    <title>Recipe Page</title>
-</head>
-<body>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./src/css/output.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap"
+			rel="stylesheet"
+		/>
+		<title>Recipe Page</title>
+	</head>
+	<body class="min-h-dvh h-dvh bg-Eggshell font-outfit">
+		<main class="flex justify-center sm:my-14">
+			<section
+				class="bg-white flex flex-col gap-5 w-full sm:max-w-[600px] sm:p-5 sm:rounded-lg"
+			>
+				<article class="flex flex-col gap-y-5 sm:w-[95%] mx-auto">
+					<img
+						class=""
+						src="./src/images/image-omelette.jpeg"
+						alt=""
+					/>
+					<h1 class="text-3xl font-young sm:px-0 px-5">
+						Simple Omelette Recipe
+					</h1>
+					<p class="text-sm text-wengeBrown sm:px-0 px-5">
+						An easy and quick dish, perfect for any meal. This
+						classic omelette combines beaten eggs cooked to
+						perfection, optionally filled with your choice of
+						cheese, vegetables, or meats.
+					</p>
+
+					<div class="bg-roseWhite p-5 flex flex-col gap-2">
+						<h2 class="text-2xl text-main">Preparation time</h2>
+						<ul class="flex flex-col gap-y-2 list-disc ml-4">
+							<li class="text-wengeBrown">
+								<b class="">Total:</b> Approximately 10 minutes
+							</li>
+							<li class="text-wengeBrown">
+								<b class="">Preparation:</b> 5 minutes
+							</li>
+							<li class="text-wengeBrown">
+								<b class="">Cooking:</b> 5 minutes
+							</li>
+						</ul>
+					</div>
+				</article>
+				<article
+					class="flex flex-col gap-3 sm:w-[95%] border-b sm:p-4 p-5 border-b-Eggshell"
+				>
+					<h2 class="text-secondary text-2xl font-young">
+						Ingredients
+					</h2>
+					<ul
+						class="flex flex-col gap-2 list-disc ml-4 pb-10 text-wengeBrown"
+					>
+						<li>2-3 large eggs</li>
+						<li>Salt, to taste</li>
+						<li>Pepper, to taste</li>
+						<li>1 tablespoon of butter or oil</li>
+						<li>
+							Optional fillings: cheese, diced vegetables, cooked
+							meats, herbs
+						</li>
+					</ul>
+				</article>
+				<article
+					class="flex flex-col gap-3 sm:w-[95%] sm:p-0 p-5 border-b border-b-Eggshell mx-auto"
+				>
+					<h2 class="text-secondary text-2xl font-young">
+						Instructions
+					</h2>
+					<ol
+						class="flex flex-col gap-3 marker:text-secondary list-decimal pb-10 ml-4 text-wengeBrown"
+					>
+						<li class="">
+							<p>
+								<b>Beat the eggs:</b>
+								In a bowl, beat the eggs with a pinch of salt
+								and pepper until they are well mixed. You can
+								add a tablespoon of water or milk for a fluffier
+								texture.
+							</p>
+						</li>
+						<li>
+							<p>
+								<b>Heat the pan:</b>
+								Place a non-stick frying pan over medium heat
+								and add butter or oil.
+							</p>
+						</li>
+						<li>
+							<p>
+								<b>Cook the omelette:</b>
+								Once the butter is melted and bubbling, pour in
+								eggs. Tilt the pan to ensure the eggs evenly
+								coat the surface
+							</p>
+						</li>
+						<li>
+							<p>
+								<b>Add fillings (optional):</b>
+								When the eggs begin to set at the edges but are
+								slightly runny in the middle, sprinkle your
+								chosen fillings over one half of the omelette.
+							</p>
+						</li>
+						<li>
+							<p>
+								<b>Fold and serve:</b>
+								As the omelette continues to cook, carefully
+								lift one edge and fold it over the fillings. Let
+								it cook for another minute, then slide it into a
+								plate.
+							</p>
+						</li>
+						<li>
+							<p>
+								<b>Enjoy:</b>
+								Serve hot, with additional salt and pepper if
+								needed.
+							</p>
+						</li>
+					</ol>
+				</article>
+				<article
+					class="flex flex-col gap-3 sm:p-0 p-5 sm:w-[95%] mx-auto"
+				>
+					<h2 class="text-secondary text-2xl font-young">
+						Nutrition
+					</h2>
+
+					<small class="text-wengeBrown tracking-wide">
+						The table below shows nutritional values per serving
+						without the additional fillings.
+					</small>
+					<table class="w-full font-bold">
+						<tr class="border-b border-b-lightGrey">
+							<th
+								class="text-left text-wengeBrown font-light pl-5 py-3 text-lg"
+							>
+								Calories
+							</th>
+							<td class="text-secondary py-3">277kcal</td>
+						</tr>
+						<tr class="border-b border-b-lightGrey">
+							<th
+								class="text-left text-wengeBrown font-light pl-5 py-3 text-lg"
+							>
+								Carbs
+							</th>
+							<td class="text-secondary py-3">0g</td>
+						</tr>
+						<tr class="border-b border-b-lightGrey">
+							<th
+								class="text-left text-wengeBrown font-light pl-5 py-3 text-lg"
+							>
+								Protein
+							</th>
+							<td class="text-secondary py-3">20g</td>
+						</tr>
+						<tr>
+							<th
+								class="text-left text-wengeBrown font-light pl-5 py-3 text-lg"
+							>
+								Fat
+							</th>
+							<td class="text-secondary py-3">22g</td>
+						</tr>
+					</table>
+				</article>
+			</section>
+		</main>
+	</body>
 </html>
